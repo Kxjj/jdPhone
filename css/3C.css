@@ -1,0 +1,65 @@
+.daynav{
+	margin: 20px auto;
+}
+.daynav li{
+	float: left;
+}
+.daynav li a{
+	display: block;
+	width: 198px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;	
+	color: black;
+}
+.daynav li a:hover{
+	background: #5264f9;
+}
+.jiadian li{
+	width: 190px;
+	height: 265px;
+	float: left;
+	background-color: white;
+	margin-right: 7px;
+	text-align: center;
+}
+.jiadian li img{
+	width: 160px;
+	height: 160px;
+}
+.jiadian .p-name{
+	display: inline-block;
+	width: 140px;
+	height: 36px;
+	line-height: 1.3;
+	font-size: 14px;
+	overflow: hidden;
+	text-align: center;
+	color: gray;	
+}
+.jiadian .p-price{
+	color: red;	
+}
+.jiadian li:hover{
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, .3);
+	transform: translateY(-10px);
+}
+/*精选活动*/
+.titleimg img{
+	margin: 25px auto;
+}
+.jingx li{
+	width: 220px;
+	height: 265px;
+	float: left;
+	margin-right: 17px;
+
+}
+.jingx li img{
+	width: 220px;
+	height: 265px;
+}
+.jingx li:hover{
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, .3);
+	transform: translateY(-10px);
+}
